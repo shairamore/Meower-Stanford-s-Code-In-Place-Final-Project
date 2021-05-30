@@ -122,7 +122,7 @@ def main():
     heart = None
     heart_countdown_ms = 0
 
-    lives = 5
+    lives = 9
     score = 0
     countdown_before_next_fish_ms = 0
     clock = pygame.time.Clock()
