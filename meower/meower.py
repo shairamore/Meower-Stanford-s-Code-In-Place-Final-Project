@@ -177,6 +177,8 @@ def main():
         cat_movement(cat_direction, cat)
         check_catch(cat, fishes)
 
+        draw_window(cat, cat_direction_facing, fishes, score, lives, heart)
+        
         # Game over screen
         if lives <= 0:
             pygame.mixer.Sound.play(GAME_OVER_SOUND)
@@ -195,8 +197,6 @@ def main():
                         fishes = []
                         heart = None
                         show_game_over_screen = False
-
-        draw_window(cat, cat_direction_facing, fishes, score, lives, heart)
 
     pygame.quit()
 
