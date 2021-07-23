@@ -1,7 +1,7 @@
 """
 In Meower, the main character is a cat whose goal is to
 catch as many fishes as it could. The player should not
-lose five lives or else the cat will get hungry and the
+lose nine lives or else the cat will get hungry and the
 game will be over.
 
 Created by Shaira Lapus // @ shairamore
